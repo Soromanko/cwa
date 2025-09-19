@@ -1,9 +1,12 @@
+html {
+    background: #F8F7F1;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
-    background-color: #fff;
 }
 
 nav .logo {
@@ -32,4 +35,91 @@ nav ul li a:hover {
 nav .contact-info {
     font-size: 0.9rem;
     color: #333;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    padding: 30px 18px;
+}
+
+.hero-panel {
+    border-radius: 8px;
+    padding: 48px 64px;
+}
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1.05fr 1fr 0.7fr;
+    gap: 28px;
+    align-items: center;
+}
+
+.hero-left h1 {
+    margin: 0;
+    font-size: 56px;
+}
+
+.email {
+    display: inline-block;
+    margin-top: 16px;
+    color: #ea5b34;
+    font-weight: 600;
+}
+
+.portrait-wrap {
+    width: 360px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+.portrait-wrap img {
+    display: block;
+    width: 320px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.hero-right p {
+    margin: 0;
+    font-size: 15px;
+    max-width: 220px;
+    text-align: center;
+}
+
+.badge-block {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 200px;
+}
+
+.badge-block img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
+
+.badge-text {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hero-bottom {
+    left: 64px;
+    bottom: 32px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.years-num {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.years-label {
+    font-size: 12px;
+    font-weight: 700;
 }
