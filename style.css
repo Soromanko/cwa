@@ -1,5 +1,6 @@
 html {
     background: #F8F7F1;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
@@ -58,11 +59,11 @@ nav .contact-info {
 .hero-left h1 {
     margin: 0;
     font-size: 56px;
+    padding-bottom: 350px;
 }
 
 .email {
     display: inline-block;
-    margin-top: 16px;
     color: #ea5b34;
     font-weight: 600;
 }
@@ -76,7 +77,7 @@ nav .contact-info {
 
 .portrait-wrap img {
     display: block;
-    width: 320px;
+    width: 400px;
     height: auto;
     border-radius: 8px;
 }
@@ -122,4 +123,237 @@ nav .contact-info {
 .years-label {
     font-size: 12px;
     font-weight: 700;
+}
+
+.cardssection {
+    padding: 80px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+    background: #ffffff;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px lightgray solid;
+}
+
+.card:hover {
+    box-shadow: 15px 15px 15px lightgray;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #fff;
+    flex-shrink: 0;
+}
+
+.green {
+    background: #286F6C;
+    margin-right: 15px;
+}
+
+.yellow {
+    background: #F1C048;
+    margin-right: 15px;
+}
+.red {
+    background: #F1633F;
+    margin-right: 15px;
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card p {
+    margin: 2px 0 0;
+    font-size: 14px;
+    padding-top: 4px;
+}
+
+.content h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.numbers h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 0;
+    color: #111;
+}
+
+.numbers p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.experience {
+    padding: 60px 80px;
+}
+
+.experience h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.experience-main {
+    display: grid;
+    grid-template-columns: 1fr 80px 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.experience-left {
+    text-align: left;
+    padding-right: 20px;
+}
+
+.experience-mid {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.experience-right {
+    text-align: left;
+    padding-right: 20px;
+}
+
+.experience-right p {
+    line-height: 1.5;
+}
+
+.latest {
+    background: white;
+    padding-bottom: 75px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.link {
+    color: #ea5b34;
+    font-weight: bold;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+}
+
+.cards img {
+    width: 450px;
+    height: 450px;
+    border-radius: 20px;
+}
+
+.people {
+    text-align: center;
+}
+
+.cardsppl {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.cardppl {
+    background: #fff;
+    border-radius: 16px;
+    margin: 20px;
+    padding: 25px;
+    box-shadow: 0 4px 15px lightgray;
+    position: relative;
+}
+
+.cardppl img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 5px solid #f8f8f8;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.job {
+    font-size: 12px;
+    color: lightgray;
+}
+
+footer {
+    background: white;
+}
+
+.footer-top {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 50px;
+}
+
+.footer-left a {
+    color: red;
+}
+
+.footer-right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-right li:hover {
+    color: teal;
+    display: inline-block;
+}
+
+.footer-bottom {
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom a {
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
 }
