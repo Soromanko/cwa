@@ -123,3 +123,21 @@ nav .contact-info {
     font-size: 12px;
     font-weight: 700;
 }
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.link {
+    color: #ea5b34;
+    font-weight: bold;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+}
